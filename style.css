@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+.mother-container {
+    display: flex;
+}
+nav ul {
+    list-style: none;
+}
+
+.menu-bar {
+    font-size: 30px;
+    margin: 0 20px;
+}
+.fa-times {
+    font-size: 20px;
+    margin-left: 250px;
+    display: none;
+}
+nav ul.menu-items {
+    list-style-type: none;
+    width: 300px;
+    display: none;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 10px;
+}
+nav ul.menu-items li {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+nav ul.menu-items li:hover {
+    background-color: #363636b7;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.dark {
+    padding: 10px;
+    border: 3px solid black;
+    font-size: 20px;
+    border-radius: 1000px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.dark-mode {
+    background-color: black;
+    color: black;
+    border-color: black;
+}
+.dark:hover {
+    background-color: gainsboro;
+}
+.slider {
+    display: flex;
+    justify-content: center;
+}
+.slider button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin: 0 -50px;
+    padding: 10px;
+    z-index: 1;
+    align-items: center;
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+}
+.slider button:hover {
+    text-shadow: -3px 5px 10px rgb(255, 255, 255);
+}
+.image {
+    max-width: 50%;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 3px 5px 12px black;
+}
+.slider button:hover {
+    background-color: #00000075;
+}
